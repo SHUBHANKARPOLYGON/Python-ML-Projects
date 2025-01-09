@@ -1,7 +1,7 @@
 # 👁️Eye Blinking Detection
 - Link:- [Eye Blinking Detection Model](https://drive.google.com/drive/folders/1D91mMCCs3fLEFgUyeFJ-HrK9usCJKlEB?usp=sharing)
 
-- Download the (shape_predictor_68_face_landmarks)```.dat``` file.
+- Download the shape_predictor_68_face_landmarks ```.dat``` file.
 - Copy it to your Python Project Directory.
 
 ### Install libraries 
