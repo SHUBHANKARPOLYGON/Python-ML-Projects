@@ -4,7 +4,7 @@
 - Download the (shape_predictor_68_face_landmarks)```.dat``` file.
 - Copy it to your Python Project Directory.
 
-### Install libraries 
+### Install libraries (Windows)
 
 ```
  pip install dlib
