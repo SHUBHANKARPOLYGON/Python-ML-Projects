@@ -74,12 +74,12 @@ The repository primarily uses:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ml-python-projects.git
+   git clone https://github.com/SHUBHANKARPOLYGON/Python-ML-Projects.git
    ```
 
 2. Navigate to the project folder of your choice:
    ```bash
-   cd ml-python-projects/project-folder
+   cd Python-ML-Projects/projects-folder
    ```
 
 3. Install the required dependencies:
