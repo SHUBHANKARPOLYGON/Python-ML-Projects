@@ -1,7 +1,7 @@
 # 😀Facial Landmark Recognition
 - Link:- [Facial Landmark Recognition Model](https://drive.google.com/drive/folders/1udCXFFetGt6ZscQ0lV9t85JDdQ8YgrvX?usp=sharing)
 
-- Download the (shape_predictor_68_face_landmarks)```.dat``` file.
+- Download the shape_predictor_68_face_landmarks ```.dat``` file.
 - Copy it to your Python Project Directory.
 
 ### Install libraries (Windows)
