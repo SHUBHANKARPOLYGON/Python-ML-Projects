@@ -24,3 +24,8 @@ Install the required libraries using `pip`:
 pip install opencv-python
 pip install opencv-python-headless
 ```
+- Run in prefered ide terminal
+```
+python app.py
+```
+
