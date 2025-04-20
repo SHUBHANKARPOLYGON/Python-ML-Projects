@@ -1,0 +1,5 @@
+Flask
+pytube
+youtube-transcript-api
+python-pptx
+google-generativeai
