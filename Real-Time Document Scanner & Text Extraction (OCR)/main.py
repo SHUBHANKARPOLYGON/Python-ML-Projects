@@ -4,7 +4,7 @@ import pytesseract
 from PIL import Image
 
 # Download Tesseract OCR (install via https://github.com/UB-Mannheim/tesseract/wiki)
-pytesseract.pytesseract.tesseract_cmd = r''  # Windows path (adjust for Linux/Mac)
+pytesseract.pytesseract.tesseract_cmd = r'tesseract-ocr-w64-setup-5.5.0.20241111.exe'  # Windows path (adjust for Linux/Mac)
 
 
 def scan_document():
@@ -61,12 +61,12 @@ def four_point_transform(image, pts):
     (tl, tr, br, bl) = rect
 
     # Compute new width and height
-    widthA = np.sqrt(((br[0] - bl[0]) ** 2) + ((br[1] - bl[1]) ** 2),
-    widthB = np.sqrt(((tr[0] - tl[0]) ** 2) + ((tr[1] - tl[1]) ** 2),
+    widthA = np.sqrt((br[0] - bl[0]) ** 2) + ((br[1] - bl[1]) ** 2),
+    widthB = np.sqrt((tr[0] - tl[0]) ** 2) + ((tr[1] - tl[1]) ** 2),
     maxWidth = max(int(widthA), int(widthB)),
 
-    heightA = np.sqrt(((tr[0] - br[0]) ** 2) + ((tr[1] - br[1]) ** 2),
-    heightB = np.sqrt(((tl[0] - bl[0]) ** 2) + ((tl[1] - bl[1]) ** 2),
+    heightA = np.sqrt((tr[0] - br[0]) ** 2) + ((tr[1] - br[1]) ** 2),
+    heightB = np.sqrt((tl[0] - bl[0]) ** 2) + ((tl[1] - bl[1]) ** 2),
     maxHeight = max(int(heightA), int(heightB)),
 
     # Destination points for transform
