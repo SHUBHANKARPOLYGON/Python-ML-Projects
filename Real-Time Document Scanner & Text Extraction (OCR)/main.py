@@ -4,7 +4,7 @@ import pytesseract
 from PIL import Image
 
 # Download Tesseract OCR (install via https://github.com/UB-Mannheim/tesseract/wiki)
-pytesseract.pytesseract.tesseract_cmd = r'tesseract-ocr-w64-setup-5.5.0.20241111.exe'  # Windows path (adjust for Linux/Mac)
+pytesseract.pytesseract.tesseract_cmd = r''  # Windows path (adjust for Linux/Mac)
 
 
 def scan_document():
